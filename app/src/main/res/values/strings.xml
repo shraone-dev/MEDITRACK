@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MediTrack</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_name_validation_msg">Please Enter Name</string>
+    <string name="id_no_validation_msg"> Please Enter Unique Id</string>
+    <string name="nok_empty_value"> Please add Next of Kin Contacts</string>
+    <string name="doctor_empty_value"> Please add Doctor Contacts to appear here</string>
+    <string name="emergency_empty_value">Haven\'t added emergency contacts </string>
+    <string name="font_fontFamily_medium">sans-serif</string>
+    <string name="save_successsful">save success</string>
+    <string name="second_name_validation_msg">second_name_validation_msg</string>
+    <string name="empty_value">Add Healthbio</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pulse" />
+    <string name="temperature">temperature</string>
+    <string name="weight">weight</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="Medicine">Medicine</string>
+    <string name="Ice">Ice</string>
+    <string name="Category">Category</string>
+    <string name="Appointment">Appointment</string>
+    <string name="add_appointment">Click on the Add button to add new Appointments</string>
+    <string name="ErrorMsg_pleaseenter_condtion">Please Enter Condition</string>
+    <string name="meditrack_developers">MediTrack Developers</string>
+
+
+    <string-array name="condition_type">
+        <item>Choose a condition type</item>
+        <item>Condition</item>
+        <item>Allergy</item>
+    </string-array>
+
+    <string-array name="blood_types">
+        <item>Choose Blood Type</item>
+        <item>A+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>AB-</item>
+        <item>O-</item>
+    </string-array>
+
+</resources>

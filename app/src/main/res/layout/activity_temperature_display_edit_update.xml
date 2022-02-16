@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.TemperatureDisplayEditUpdateActivity">
+
+    <EditText
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="191dp"
+        android:contentDescription="@string/temperature"
+        android:ems="10"
+        android:hint="temperature"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/temperature_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/temperature"
+        android:layout_toEndOf="@+id/temperature"
+        android:ems="10"
+        android:hint="Celsius" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temperature"
+        android:layout_alignStart="@+id/temperature"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Date"
+        android:layout_alignStart="@+id/temperature"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/updateToTemperatureDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginBottom="262dp"
+        android:text="Update" />
+
+
+</RelativeLayout>

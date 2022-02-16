@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.meditrack"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- Splash Screen -->
+
+        <activity
+            android:name="com.example.maditrack.activity.SplashScreenActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.maditrack.MainActivity" />
+        <activity
+            android:name="com.example.maditrack.activity.ReminderConsumptionActivity"
+            android:label="Reminder Consumption Activity" />
+        <activity
+            android:name="com.example.maditrack.activity.PersonActivity"
+            android:label="Add Details"
+            android:parentActivityName="com.example.maditrack.MainActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity android:name="com.example.maditrack.activity.HealthBioActivity" />
+        <activity
+            android:name="com.example.maditrack.activity.AddHealthBioActivity"
+            android:label="Add Details"
+            android:parentActivityName="com.example.maditrack.MainActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.AppointmentActivity"
+            android:label="My Appointments" />
+        <activity
+            android:name="com.example.maditrack.activity.SaveAppointmentActivity"
+            android:label="Save Appointment" />
+        <activity
+            android:name="com.example.maditrack.activity.MedicineActivity"
+            android:label="Medicine"
+            android:parentActivityName="com.example.maditrack.MainActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.MedicineAddActivity"
+            android:label="Add Medicine"
+            android:parentActivityName="com.example.maditrack.activity.MedicineActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.MedicineEditActivity"
+            android:label="Edit Medicine"
+            android:parentActivityName="com.example.maditrack.activity.MedicineActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.CategoryActivity"
+            android:label="Category"
+            android:parentActivityName="com.example.maditrack.MainActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.CategoryEditActivity"
+            android:label="Edit Category"
+            android:parentActivityName="com.example.maditrack.activity.CategoryActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.ConsumptionActivity"
+            android:label="Consumption"
+            android:parentActivityName="com.example.maditrack.MainActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.ICETabLayoutActivity"
+            android:label="ICE"
+            android:parentActivityName="com.example.maditrack.MainActivity"
+            android:theme="@style/TabLayoutTheme" />
+        <activity android:name="com.example.maditrack.activity.AddReminderActivity" />
+
+        <receiver
+            android:name="com.example.maditrack.activity.ReminderSetter"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.maditrack.service.ReminderReceiver" />
+
+        <service android:name="com.example.maditrack.service.ReminderService" />
+
+        <activity
+            android:name="com.example.maditrack.activity.AddNOKActivity"
+            android:label="ICE"
+            android:parentActivityName="com.example.maditrack.activity.ICETabLayoutActivity"
+            android:theme="@style/TabLayoutTheme" />
+        <activity
+            android:name="com.example.maditrack.activity.AddDoctorActivity"
+            android:label="ICE"
+            android:parentActivityName="com.example.maditrack.activity.ICETabLayoutActivity"
+            android:theme="@style/TabLayoutTheme" />
+        <activity
+            android:name="com.example.maditrack.activity.MeasurementActivity"
+            android:label="Measurement"
+            android:parentActivityName="com.example.maditrack.MainActivity"
+            android:theme="@style/TabLayoutTheme" />
+        <activity
+            android:name="com.example.maditrack.activity.HelpActivity"
+            android:label="Help"
+            android:parentActivityName="com.example.maditrack.MainActivity"
+            android:theme="@style/TabLayoutTheme" />
+        <activity
+            android:name="com.example.maditrack.activity.AddPressureActivity"
+            android:label="Add Blood Pressure"
+            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.AddPulseActivity"
+            android:label="Add Pulse"
+            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.AddTemperatureActivity"
+            android:label="Add Temperature"
+            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.AddWeightActivity"
+            android:label="Add Weight"
+            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.PressureDisplayEditUpdateActivity"
+            android:label="Edit Blood Pressure"
+            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.PulseDisplayEditUpdateActivity"
+            android:label="Edit Pulse"
+            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.TemperatureDisplayEditUpdateActivity"
+            android:label="Edit Temperature"
+            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.WeightDisplayEditUpdateActivity"
+            android:label="Edit Weight"
+            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name="com.example.maditrack.activity.AboutUsActivity"
+            android:label="About Us"
+            android:parentActivityName="com.example.maditrack.MainActivity"
+            android:theme="@style/AppThemeToolBar" />
+    </application>
+
+</manifest>

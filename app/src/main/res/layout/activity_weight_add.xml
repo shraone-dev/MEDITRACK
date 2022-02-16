@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AddWeightActivity">
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/weight"
+        android:ems="10"
+        android:hint="weight"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/weight_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/weight"
+        android:layout_toRightOf="@id/weight"
+        android:hint="kg" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weight"
+        android:layout_alignStart="@+id/weight"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Date"
+        android:layout_alignStart="@id/Date"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="time"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/AddToWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="129dp"
+        android:text="Save" />
+
+
+</RelativeLayout>

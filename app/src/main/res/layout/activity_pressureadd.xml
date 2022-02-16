@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="activity.PressureDisplayEditUpdateActivity">
+
+    <EditText
+        android:id="@+id/systolic"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/diastolic"
+        android:layout_alignStart="@+id/diastolic"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="systolic "
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/diastolic"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:hint="diastolic"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Date"
+        android:layout_below="@+id/Date"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Enter Time"
+        android:inputType="time" />
+
+    <TextView
+        android:id="@+id/diastolic_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/diastolic"
+        android:layout_alignBottom="@+id/diastolic"
+        android:layout_toRightOf="@id/diastolic"
+        android:hint="mm HG" />
+
+    <TextView
+        android:id="@+id/systolic_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/systolic"
+        android:layout_toRightOf="@id/systolic"
+        android:hint="mm HG" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/diastolic"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Enter Date"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/AddPressureToDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginBottom="220dp"
+        android:text="Save" />
+
+</RelativeLayout>

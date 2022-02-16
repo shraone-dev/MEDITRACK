@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:stretchColumns="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/meditrack_developers"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+    </TableRow>
+
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="Sr. No."
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="Student Name"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="Roll No."
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="1" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="Mr. Gursal Aniket Rangnath" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="101" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="2" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="Mr. Gore Abhijeet Ramesh" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="102" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="3" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="Mr. Kale Pranav Machhindra" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="110" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="4" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="Mr. Lokhande Amol Bhausaheb" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="123" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090" />
+
+</TableLayout>

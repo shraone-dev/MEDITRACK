@@ -1,0 +1,340 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.meditrack"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:6:5-69
+11-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:6:22-66
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:8:5-81
+13-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:9:5-66
+14-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:9:22-63
+15
+16    <application
+16-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:11:5-192:19
+17        android:allowBackup="true"
+17-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:12:9-35
+18        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+18-->[com.android.support:support-compat:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\01abf3def00b528e5c29d1fd1eb1ef25\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:13:9-43
+21        android:label="@string/app_name"
+21-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:14:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:15:9-54
+23        android:supportsRtl="true"
+23-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:16:9-35
+24        android:theme="@style/AppTheme" >
+24-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:17:9-40
+25
+26        <!-- Splash Screen -->
+27
+28        <activity
+28-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:20:9-31:20
+29            android:name="com.example.maditrack.activity.SplashScreenActivity"
+29-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:21:13-79
+30            android:exported="true"
+30-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:25:13-36
+31            android:label="@string/app_name"
+31-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:22:13-45
+32            android:screenOrientation="portrait"
+32-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:23:13-49
+33            android:theme="@android:style/Theme.Black.NoTitleBar" >
+33-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:24:13-66
+34            <intent-filter>
+34-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:27:13-30:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:28:17-69
+35-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:28:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:29:17-77
+37-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:29:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.example.maditrack.MainActivity" />
+40-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:33:9-71
+40-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:33:19-68
+41        <activity
+41-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:35:9-37:61
+42            android:name="com.example.maditrack.activity.ReminderConsumptionActivity"
+42-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:36:13-86
+43            android:label="Reminder Consumption Activity" />
+43-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:37:13-58
+44        <activity
+44-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:40:9-44:54
+45            android:name="com.example.maditrack.activity.PersonActivity"
+45-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:41:13-73
+46            android:label="Add Details"
+46-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:42:13-40
+47            android:parentActivityName="com.example.maditrack.MainActivity"
+47-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:43:13-76
+48            android:theme="@style/AppThemeToolBar" />
+48-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:44:13-51
+49        <activity android:name="com.example.maditrack.activity.HealthBioActivity" />
+49-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:46:9-85
+49-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:46:19-82
+50        <activity
+50-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:48:9-52:54
+51            android:name="com.example.maditrack.activity.AddHealthBioActivity"
+51-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:49:13-79
+52            android:label="Add Details"
+52-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:50:13-40
+53            android:parentActivityName="com.example.maditrack.MainActivity"
+53-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:51:13-76
+54            android:theme="@style/AppThemeToolBar" />
+54-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:52:13-51
+55        <activity
+55-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:54:9-56:47
+56            android:name="com.example.maditrack.activity.AppointmentActivity"
+56-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:55:13-78
+57            android:label="My Appointments" />
+57-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:56:13-44
+58        <activity
+58-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:58:9-60:48
+59            android:name="com.example.maditrack.activity.SaveAppointmentActivity"
+59-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:59:13-82
+60            android:label="Save Appointment" />
+60-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:60:13-45
+61        <activity
+61-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:62:9-66:54
+62            android:name="com.example.maditrack.activity.MedicineActivity"
+62-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:63:13-75
+63            android:label="Medicine"
+63-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:64:13-37
+64            android:parentActivityName="com.example.maditrack.MainActivity"
+64-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:65:13-76
+65            android:theme="@style/AppThemeToolBar" />
+65-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:66:13-51
+66        <activity
+66-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:67:9-71:54
+67            android:name="com.example.maditrack.activity.MedicineAddActivity"
+67-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:68:13-78
+68            android:label="Add Medicine"
+68-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:69:13-41
+69            android:parentActivityName="com.example.maditrack.activity.MedicineActivity"
+69-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:70:13-89
+70            android:theme="@style/AppThemeToolBar" />
+70-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:71:13-51
+71        <activity
+71-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:72:9-76:54
+72            android:name="com.example.maditrack.activity.MedicineEditActivity"
+72-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:73:13-79
+73            android:label="Edit Medicine"
+73-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:74:13-42
+74            android:parentActivityName="com.example.maditrack.activity.MedicineActivity"
+74-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:75:13-89
+75            android:theme="@style/AppThemeToolBar" />
+75-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:76:13-51
+76        <activity
+76-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:78:9-82:54
+77            android:name="com.example.maditrack.activity.CategoryActivity"
+77-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:79:13-75
+78            android:label="Category"
+78-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:80:13-37
+79            android:parentActivityName="com.example.maditrack.MainActivity"
+79-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:81:13-76
+80            android:theme="@style/AppThemeToolBar" />
+80-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:82:13-51
+81        <activity
+81-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:83:9-87:54
+82            android:name="com.example.maditrack.activity.CategoryEditActivity"
+82-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:84:13-79
+83            android:label="Edit Category"
+83-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:85:13-42
+84            android:parentActivityName="com.example.maditrack.activity.CategoryActivity"
+84-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:86:13-89
+85            android:theme="@style/AppThemeToolBar" />
+85-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:87:13-51
+86        <activity
+86-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:89:9-93:54
+87            android:name="com.example.maditrack.activity.ConsumptionActivity"
+87-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:90:13-78
+88            android:label="Consumption"
+88-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:91:13-40
+89            android:parentActivityName="com.example.maditrack.MainActivity"
+89-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:92:13-76
+90            android:theme="@style/AppThemeToolBar" />
+90-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:93:13-51
+91        <activity
+91-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:95:9-99:53
+92            android:name="com.example.maditrack.activity.ICETabLayoutActivity"
+92-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:96:13-79
+93            android:label="ICE"
+93-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:97:13-32
+94            android:parentActivityName="com.example.maditrack.MainActivity"
+94-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:98:13-76
+95            android:theme="@style/TabLayoutTheme" />
+95-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:99:13-50
+96        <activity android:name="com.example.maditrack.activity.AddReminderActivity" />
+96-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:100:9-87
+96-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:100:19-84
+97
+98        <receiver
+98-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:102:9-107:20
+99            android:name="com.example.maditrack.activity.ReminderSetter"
+99-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:102:19-79
+100            android:exported="false" >
+100-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:103:13-37
+101            <intent-filter>
+101-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:104:13-106:29
+102                <action android:name="android.intent.action.BOOT_COMPLETED" />
+102-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:105:17-79
+102-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:105:25-76
+103            </intent-filter>
+104        </receiver>
+105        <receiver android:name="com.example.maditrack.service.ReminderReceiver" />
+105-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:109:9-83
+105-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:109:19-80
+106
+107        <service android:name="com.example.maditrack.service.ReminderService" />
+107-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:111:9-81
+107-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:111:18-78
+108
+109        <activity
+109-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:113:9-117:53
+110            android:name="com.example.maditrack.activity.AddNOKActivity"
+110-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:114:13-73
+111            android:label="ICE"
+111-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:115:13-32
+112            android:parentActivityName="com.example.maditrack.activity.ICETabLayoutActivity"
+112-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:116:13-93
+113            android:theme="@style/TabLayoutTheme" />
+113-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:117:13-50
+114        <activity
+114-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:119:9-123:53
+115            android:name="com.example.maditrack.activity.AddDoctorActivity"
+115-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:120:13-76
+116            android:label="ICE"
+116-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:121:13-32
+117            android:parentActivityName="com.example.maditrack.activity.ICETabLayoutActivity"
+117-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:122:13-93
+118            android:theme="@style/TabLayoutTheme" />
+118-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:123:13-50
+119        <activity
+119-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:125:9-129:53
+120            android:name="com.example.maditrack.activity.MeasurementActivity"
+120-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:126:13-78
+121            android:label="Measurement"
+121-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:127:13-40
+122            android:parentActivityName="com.example.maditrack.MainActivity"
+122-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:128:13-76
+123            android:theme="@style/TabLayoutTheme" />
+123-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:129:13-50
+124        <activity
+124-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:132:9-136:53
+125            android:name="com.example.maditrack.activity.HelpActivity"
+125-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:133:13-71
+126            android:label="Help"
+126-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:134:13-33
+127            android:parentActivityName="com.example.maditrack.MainActivity"
+127-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:135:13-76
+128            android:theme="@style/TabLayoutTheme" />
+128-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:136:13-50
+129        <activity
+129-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:138:9-142:54
+130            android:name="com.example.maditrack.activity.AddPressureActivity"
+130-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:139:13-78
+131            android:label="Add Blood Pressure"
+131-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:140:13-47
+132            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+132-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:141:13-92
+133            android:theme="@style/AppThemeToolBar" />
+133-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:142:13-51
+134        <activity
+134-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:144:9-148:54
+135            android:name="com.example.maditrack.activity.AddPulseActivity"
+135-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:145:13-75
+136            android:label="Add Pulse"
+136-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:146:13-38
+137            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+137-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:147:13-92
+138            android:theme="@style/AppThemeToolBar" />
+138-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:148:13-51
+139        <activity
+139-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:150:9-154:54
+140            android:name="com.example.maditrack.activity.AddTemperatureActivity"
+140-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:151:13-81
+141            android:label="Add Temperature"
+141-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:152:13-44
+142            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+142-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:153:13-92
+143            android:theme="@style/AppThemeToolBar" />
+143-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:154:13-51
+144        <activity
+144-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:156:9-160:54
+145            android:name="com.example.maditrack.activity.AddWeightActivity"
+145-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:157:13-76
+146            android:label="Add Weight"
+146-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:158:13-39
+147            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+147-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:159:13-92
+148            android:theme="@style/AppThemeToolBar" />
+148-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:160:13-51
+149        <activity
+149-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:162:9-166:54
+150            android:name="com.example.maditrack.activity.PressureDisplayEditUpdateActivity"
+150-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:163:13-92
+151            android:label="Edit Blood Pressure"
+151-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:164:13-48
+152            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+152-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:165:13-92
+153            android:theme="@style/AppThemeToolBar" />
+153-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:166:13-51
+154        <activity
+154-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:168:9-172:54
+155            android:name="com.example.maditrack.activity.PulseDisplayEditUpdateActivity"
+155-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:169:13-89
+156            android:label="Edit Pulse"
+156-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:170:13-39
+157            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+157-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:171:13-92
+158            android:theme="@style/AppThemeToolBar" />
+158-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:172:13-51
+159        <activity
+159-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:174:9-178:54
+160            android:name="com.example.maditrack.activity.TemperatureDisplayEditUpdateActivity"
+160-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:175:13-95
+161            android:label="Edit Temperature"
+161-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:176:13-45
+162            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+162-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:177:13-92
+163            android:theme="@style/AppThemeToolBar" />
+163-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:178:13-51
+164        <activity
+164-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:180:9-184:54
+165            android:name="com.example.maditrack.activity.WeightDisplayEditUpdateActivity"
+165-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:181:13-90
+166            android:label="Edit Weight"
+166-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:182:13-40
+167            android:parentActivityName="com.example.maditrack.activity.MeasurementActivity"
+167-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:183:13-92
+168            android:theme="@style/AppThemeToolBar" />
+168-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:184:13-51
+169        <activity
+169-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:186:9-190:54
+170            android:name="com.example.maditrack.activity.AboutUsActivity"
+170-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:187:13-74
+171            android:label="About Us"
+171-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:188:13-37
+172            android:parentActivityName="com.example.maditrack.MainActivity"
+172-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:189:13-76
+173            android:theme="@style/AppThemeToolBar" />
+173-->C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:190:13-51
+174    </application>
+175
+176</manifest>

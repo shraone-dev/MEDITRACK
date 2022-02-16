@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:baselineAligned="false"
+        android:weightSum="1"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <EditText
+            android:id="@+id/txtAptLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter location"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:maxLength="100"
+            android:paddingTop="?attr/actionBarSize"/>
+
+        <EditText
+            android:id="@+id/txtDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_alignBaseline="@+id/aptDescription"
+            android:layout_alignBottom="@+id/aptDescription"
+            android:layout_alignLeft="@+id/txtDateAndTime"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/txtDateAndTime"
+            android:ems="10"
+            android:hint="Enter Description "
+            android:padding="15dp"
+            android:inputType="textMultiLine"
+            android:maxLength="256"
+            android:textSize="18sp"
+            android:lines="4"
+            android:minLines="3"
+            android:maxLines="5"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="7dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:text="Time"
+                android:textStyle="bold"
+                android:layout_alignTop="@+id/txtTime" />
+
+            <EditText
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter date"
+                android:inputType="date"
+                android:focusable="false"
+                android:padding="10dp"
+                android:layout_alignLeft="@+id/txtTime"
+                android:layout_alignStart="@+id/txtTime" />
+
+            <EditText
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="time"
+                android:focusable="false"
+                android:hint="Enter time"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:padding="10dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

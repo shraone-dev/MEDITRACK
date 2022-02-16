@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.EmergencyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyle_view_emergency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<!--
+    <TextView
+        android:id="@+id/tv_empty_value2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/emergency_empty_value"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+-->
+
+</RelativeLayout>

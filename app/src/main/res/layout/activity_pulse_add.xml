@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AddPulseActivity">
+
+    <EditText
+        android:id="@+id/pulse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="191dp"
+        android:contentDescription="@string/pulse"
+        android:ems="10"
+        android:hint="pulse"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/pulse_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pulse"
+        android:layout_toEndOf="@+id/pulse"
+        android:ems="10"
+        android:hint="bpm" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pulse"
+        android:layout_below="@+id/pulse"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pulse"
+        android:layout_below="@id/Date"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="time"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/AddToPulseDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginBottom="282dp"
+        android:text="Save" />
+
+
+</RelativeLayout>

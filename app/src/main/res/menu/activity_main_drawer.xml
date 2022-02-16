@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_person"
+            android:icon="@drawable/ic_menu_user_account"
+            android:title="Person" />
+        <item
+            android:id="@+id/nav_healthBio"
+            android:icon="@drawable/ic_medical"
+            android:title="Health Bio" />
+        <item
+            android:id="@+id/nav_ICE"
+            android:icon="@drawable/ic_menu_ice"
+            android:title="ICE" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_menu_category"
+            android:title="Category" />
+
+        <item
+            android:id="@+id/nav_medicine"
+            android:icon="@drawable/ic_medicine_2"
+            android:title="Medicine" />
+
+        <item
+            android:id="@+id/nav_measurement"
+            android:icon="@drawable/ic_menu_measurement"
+            android:title="Measurement" />
+
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/ic_menu_appointment"
+            android:title="Appointment" />
+            
+        <item
+            android:id="@+id/nav_consumption"
+            android:icon="@drawable/ic_menu_consumption"
+            android:title="Consumption" />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_about_us_24dp"
+            android:title="About Us" />
+    </group>
+
+</menu>

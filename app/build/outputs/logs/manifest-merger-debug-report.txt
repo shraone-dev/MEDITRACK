@@ -1,0 +1,472 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:2:1-194:12
+INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:2:1-194:12
+INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:2:1-194:12
+INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:2:1-194:12
+MERGED from [com.android.support:design:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\3e9a1071c637d411fee5edf159fc56b9\transformed\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ced5b45a24f6cc545db9672d5c9828df\transformed\constraint-layout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\0b1495e829d7e1446b1acdb33ea789f8\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\57d0682f705a8b1ad541dd488828a68b\transformed\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\647de0c5b8aa300a7544d6904016d80e\transformed\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\505797e4814d21f2dc18b818b7309840\transformed\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\9584b4d598315b794af35173214e76a9\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\98bbf8ff4e91b7527310ba2c1f70e17a\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\6678df106093e5a55cfcce9272a521a2\transformed\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ee99e7d37c413160f507da6a9c2d38f0\transformed\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\4db909d2c81ed91b6d00c145df11d834\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\5a671b1d960db92f845966c74b28fdfe\transformed\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ecfe40b5b64b269434758ba80a7d9da3\transformed\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\09688dc651451ce5bffaa3c1c9ae95a8\transformed\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\fd210300523ee75d410c983bfd43664d\transformed\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\8f2c9aba696705a6e7daac88cb9c697c\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\88d120cee404d93e2c55303ac1fbf37b\transformed\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\441357cb85add36d99429b9cf1bf4dd8\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\5ae4dd0f5eec1ebf3bcd237b83172834\transformed\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\0a168096bc0846d689d2a1bab2bc274e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\d0aa44ab2172920287a481880db9891c\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\01abf3def00b528e5c29d1fd1eb1ef25\transformed\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\d6e2fabc0cd6e5013b2348e028d475fb\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\2ad741cfcf52d97a50fb2c98f3ea6e2e\transformed\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\894f8e31cff200a0f9119da9ff33e815\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\580c8cba696c03bab3922ef6e6023843\transformed\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ad9475fa2fb52485618e2cf36652c067\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\03a9870c7cb55336aa671f531b5bdd7f\transformed\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\e17334d6ee2a96bc6e34504380789756\transformed\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\bffe487eb5748f9fafbdea93116f76cd\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\77ad3c9b9262e6641eec7686d9236799\transformed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\f3f6f40178a0a499e88eae1fe5c74bd1\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\3d5f5d66ab57faf98456681559d7ae76\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:2:1-194:12
+INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:2:1-194:12
+INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:2:1-194:12
+	package
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+		INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:2:1-194:12
+		INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:2:1-194:12
+		INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:6:5-69
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:6:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:9:22-63
+application
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:11:5-192:19
+MERGED from [com.android.support:design:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\3e9a1071c637d411fee5edf159fc56b9\transformed\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\3e9a1071c637d411fee5edf159fc56b9\transformed\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ced5b45a24f6cc545db9672d5c9828df\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ced5b45a24f6cc545db9672d5c9828df\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\01abf3def00b528e5c29d1fd1eb1ef25\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\01abf3def00b528e5c29d1fd1eb1ef25\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\d6e2fabc0cd6e5013b2348e028d475fb\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\d6e2fabc0cd6e5013b2348e028d475fb\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\01abf3def00b528e5c29d1fd1eb1ef25\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:17:9-40
+activity#com.example.maditrack.activity.SplashScreenActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:20:9-31:20
+	android:screenOrientation
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:23:13-49
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:22:13-45
+	android:exported
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:25:13-36
+	tools:ignore
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:26:13-68
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:24:13-66
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:21:13-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.example.maditrack.MainActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:33:19-68
+activity#com.example.maditrack.activity.ReminderConsumptionActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:35:9-37:61
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:37:13-58
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:36:13-86
+activity#com.example.maditrack.activity.PersonActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:40:9-44:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:43:13-76
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:42:13-40
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:44:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:41:13-73
+activity#com.example.maditrack.activity.HealthBioActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:46:9-85
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:46:19-82
+activity#com.example.maditrack.activity.AddHealthBioActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:48:9-52:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:51:13-76
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:50:13-40
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:52:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:49:13-79
+activity#com.example.maditrack.activity.AppointmentActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:54:9-56:47
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:55:13-78
+activity#com.example.maditrack.activity.SaveAppointmentActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:58:9-60:48
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:60:13-45
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:59:13-82
+activity#com.example.maditrack.activity.MedicineActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:62:9-66:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:65:13-76
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:64:13-37
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:66:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:63:13-75
+activity#com.example.maditrack.activity.MedicineAddActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:67:9-71:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:70:13-89
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:69:13-41
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:71:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:68:13-78
+activity#com.example.maditrack.activity.MedicineEditActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:72:9-76:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:75:13-89
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:74:13-42
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:76:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:73:13-79
+activity#com.example.maditrack.activity.CategoryActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:78:9-82:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:81:13-76
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:80:13-37
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:82:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:79:13-75
+activity#com.example.maditrack.activity.CategoryEditActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:83:9-87:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:86:13-89
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:85:13-42
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:87:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:84:13-79
+activity#com.example.maditrack.activity.ConsumptionActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:89:9-93:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:92:13-76
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:91:13-40
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:93:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:90:13-78
+activity#com.example.maditrack.activity.ICETabLayoutActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:95:9-99:53
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:98:13-76
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:97:13-32
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:99:13-50
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:96:13-79
+activity#com.example.maditrack.activity.AddReminderActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:100:9-87
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:100:19-84
+receiver#com.example.maditrack.activity.ReminderSetter
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:102:9-107:20
+	android:exported
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:103:13-37
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:102:19-79
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:104:13-106:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:105:25-76
+receiver#com.example.maditrack.service.ReminderReceiver
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:109:9-83
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:109:19-80
+service#com.example.maditrack.service.ReminderService
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:111:9-81
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:111:18-78
+activity#com.example.maditrack.activity.AddNOKActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:113:9-117:53
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:116:13-93
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:115:13-32
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:117:13-50
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:114:13-73
+activity#com.example.maditrack.activity.AddDoctorActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:119:9-123:53
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:122:13-93
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:121:13-32
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:123:13-50
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:120:13-76
+activity#com.example.maditrack.activity.MeasurementActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:125:9-129:53
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:128:13-76
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:127:13-40
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:129:13-50
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:126:13-78
+activity#com.example.maditrack.activity.HelpActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:132:9-136:53
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:135:13-76
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:134:13-33
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:136:13-50
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:133:13-71
+activity#com.example.maditrack.activity.AddPressureActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:138:9-142:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:141:13-92
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:140:13-47
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:142:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:139:13-78
+activity#com.example.maditrack.activity.AddPulseActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:144:9-148:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:147:13-92
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:146:13-38
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:148:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:145:13-75
+activity#com.example.maditrack.activity.AddTemperatureActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:150:9-154:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:153:13-92
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:152:13-44
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:154:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:151:13-81
+activity#com.example.maditrack.activity.AddWeightActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:156:9-160:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:159:13-92
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:158:13-39
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:160:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:157:13-76
+activity#com.example.maditrack.activity.PressureDisplayEditUpdateActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:162:9-166:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:165:13-92
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:164:13-48
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:166:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:163:13-92
+activity#com.example.maditrack.activity.PulseDisplayEditUpdateActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:168:9-172:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:171:13-92
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:170:13-39
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:172:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:169:13-89
+activity#com.example.maditrack.activity.TemperatureDisplayEditUpdateActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:174:9-178:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:177:13-92
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:176:13-45
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:178:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:175:13-95
+activity#com.example.maditrack.activity.WeightDisplayEditUpdateActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:180:9-184:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:183:13-92
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:182:13-40
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:184:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:181:13-90
+activity#com.example.maditrack.activity.AboutUsActivity
+ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:186:9-190:54
+	android:parentActivityName
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:189:13-76
+	android:label
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:188:13-37
+	android:theme
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:190:13-51
+	android:name
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml:187:13-74
+uses-sdk
+INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\3e9a1071c637d411fee5edf159fc56b9\transformed\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\3e9a1071c637d411fee5edf159fc56b9\transformed\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ced5b45a24f6cc545db9672d5c9828df\transformed\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ced5b45a24f6cc545db9672d5c9828df\transformed\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\0b1495e829d7e1446b1acdb33ea789f8\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\0b1495e829d7e1446b1acdb33ea789f8\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\57d0682f705a8b1ad541dd488828a68b\transformed\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\57d0682f705a8b1ad541dd488828a68b\transformed\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\647de0c5b8aa300a7544d6904016d80e\transformed\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\647de0c5b8aa300a7544d6904016d80e\transformed\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\505797e4814d21f2dc18b818b7309840\transformed\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\505797e4814d21f2dc18b818b7309840\transformed\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\9584b4d598315b794af35173214e76a9\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\9584b4d598315b794af35173214e76a9\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\98bbf8ff4e91b7527310ba2c1f70e17a\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\98bbf8ff4e91b7527310ba2c1f70e17a\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\6678df106093e5a55cfcce9272a521a2\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\6678df106093e5a55cfcce9272a521a2\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ee99e7d37c413160f507da6a9c2d38f0\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ee99e7d37c413160f507da6a9c2d38f0\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\4db909d2c81ed91b6d00c145df11d834\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\4db909d2c81ed91b6d00c145df11d834\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\5a671b1d960db92f845966c74b28fdfe\transformed\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\5a671b1d960db92f845966c74b28fdfe\transformed\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ecfe40b5b64b269434758ba80a7d9da3\transformed\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ecfe40b5b64b269434758ba80a7d9da3\transformed\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\09688dc651451ce5bffaa3c1c9ae95a8\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\09688dc651451ce5bffaa3c1c9ae95a8\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\fd210300523ee75d410c983bfd43664d\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\fd210300523ee75d410c983bfd43664d\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\8f2c9aba696705a6e7daac88cb9c697c\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\8f2c9aba696705a6e7daac88cb9c697c\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\88d120cee404d93e2c55303ac1fbf37b\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\88d120cee404d93e2c55303ac1fbf37b\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\441357cb85add36d99429b9cf1bf4dd8\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\441357cb85add36d99429b9cf1bf4dd8\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\5ae4dd0f5eec1ebf3bcd237b83172834\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\5ae4dd0f5eec1ebf3bcd237b83172834\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\0a168096bc0846d689d2a1bab2bc274e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\0a168096bc0846d689d2a1bab2bc274e\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\d0aa44ab2172920287a481880db9891c\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\d0aa44ab2172920287a481880db9891c\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\01abf3def00b528e5c29d1fd1eb1ef25\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\01abf3def00b528e5c29d1fd1eb1ef25\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\d6e2fabc0cd6e5013b2348e028d475fb\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\d6e2fabc0cd6e5013b2348e028d475fb\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\2ad741cfcf52d97a50fb2c98f3ea6e2e\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\2ad741cfcf52d97a50fb2c98f3ea6e2e\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\894f8e31cff200a0f9119da9ff33e815\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\894f8e31cff200a0f9119da9ff33e815\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\580c8cba696c03bab3922ef6e6023843\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\580c8cba696c03bab3922ef6e6023843\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ad9475fa2fb52485618e2cf36652c067\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\ad9475fa2fb52485618e2cf36652c067\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\03a9870c7cb55336aa671f531b5bdd7f\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\03a9870c7cb55336aa671f531b5bdd7f\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\e17334d6ee2a96bc6e34504380789756\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\e17334d6ee2a96bc6e34504380789756\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\bffe487eb5748f9fafbdea93116f76cd\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\bffe487eb5748f9fafbdea93116f76cd\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\77ad3c9b9262e6641eec7686d9236799\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\77ad3c9b9262e6641eec7686d9236799\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\f3f6f40178a0a499e88eae1fe5c74bd1\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\f3f6f40178a0a499e88eae1fe5c74bd1\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\3d5f5d66ab57faf98456681559d7ae76\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\WorkSpace\gradle-7.3.3\bin\caches\transforms-3\3d5f5d66ab57faf98456681559d7ae76\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+		INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+		ADDED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml
+		INJECTED from C:\WorkSpace\Android_Studio\New\MediTrack\app\src\main\AndroidManifest.xml

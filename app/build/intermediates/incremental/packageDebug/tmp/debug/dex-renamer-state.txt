@@ -1,0 +1,4 @@
+#Thu Feb 10 17:04:16 IST 2022
+base.0=C\:\\WorkSpace\\Android_Studio\\New\\MediTrack\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
